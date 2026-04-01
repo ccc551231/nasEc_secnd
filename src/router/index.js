@@ -10,7 +10,7 @@ import QuoteSuccessView from '../views/QuoteSuccessView.vue';
 import TravelInsuranceView from '../views/TravelInsuranceView.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
